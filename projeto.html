@@ -5,31 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Inicial</title>
-    <link rel="stylesheet" href="csss.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="projeto.css">
 </head>
 
 <body>
-    <!-- Cabeçalho -->
- 
-    <h1> Filtro </h1>
 
-	<input id="input" type="text" onkeyup="filter()">
-    <!-- Aqui você chama a função filterItems corretamente -->
-	  <uL id="list">
-		
-		<li>Home</li>
-		<li>Dicas</li>
-		<li>Sites</li>
-		<li>VIdeos</li>
-	  </uL>
-	  
-		
-		<p id="noResults"> Nada econtrado ?</p>
-		
+    <h1>Filtro de Itens</h1>
+
+    <!-- Input de pesquisa -->
+    <input id="input" type="text" oninput="filter()" placeholder="Digite para filtrar...">
+
+    <!-- Lista de itens -->
+   
+	<div id="list">
 	
-    <!-- Scripts -->
+	
+		<div> home12</div>
+			<div> home2</div>
+				<div> home3</div>
+				
+	
+	</div>
+	
+
+    <!-- Mensagem "Nenhum item encontrado" -->
+    <p id="noResults" style="display: none;">Nenhum item encontrado</p>
+
     <script src="projeto.js"></script>
 </body>
 

@@ -1,0 +1,46 @@
+/* Centraliza o conteúdo da página */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ocupa toda a altura da tela */
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Estilos do input */
+#input {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: 250px;
+}
+
+/* Estilos da lista e das divs dentro dela */
+#list {
+    display: flex; /* Usando flexbox */
+    gap: 10px; /* Espaço entre as divs */
+    justify-content: center;
+    flex-wrap: wrap; /* Permite que as divs quebrem para a linha seguinte, se necessário */
+}
+
+/* Estilo das divs dentro da lista */
+#list > div {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para a mensagem de "Nenhum item encontrado" */
+#noResults {
+    color: red;
+    font-style: italic;
+    display: none;
+}

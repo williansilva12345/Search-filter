@@ -5,7 +5,7 @@ function filter() {
 
     // Obtém a lista de itens
     var list = document.getElementById("list");
-    var li = list.getElementsByTagName("li");
+    var li = list.getElementsByTagName("div");
 
     // Se o campo de pesquisa estiver vazio, exibe todos os itens
     if (valueof === "") {
